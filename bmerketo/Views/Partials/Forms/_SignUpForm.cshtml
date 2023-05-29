@@ -1,0 +1,70 @@
+﻿@model SignUpFormViewModel
+
+<section class="register-form mb-5">
+    <div class="container">
+        <div class="title">Register new Account</div>
+        <form method="post" novalidate>
+            <div class="first-name form-group">
+                <label asp-for="FirstName"></label>
+                <input asp-for="FirstName" id="first-name">
+                <span asp-validation-for="FirstName" class="error"></span>
+            </div>
+            <div class="last-name form-group">
+                <label asp-for="LastName"></label>
+                <input asp-for="LastName" id="last-name">
+                <span asp-validation-for="LastName" class="error"></span>
+            </div>
+            <div class="street-name form-group">
+                <label asp-for="StreetName"></label>
+                <input asp-for="StreetName" id="street-name">
+                <span asp-validation-for="StreetName" class="error"></span>
+            </div>
+            <div class="postal-code form-group">
+                <label asp-for="PostalCode"></label>
+                <input asp-for="PostalCode" id="postal-code">
+                <span asp-validation-for="PostalCode" class="error"></span>
+            </div>
+            <div class="city form-group">
+                <label asp-for="City"></label>
+                <input asp-for="City" id="city">
+                <span asp-validation-for="City" class="error"></span>
+            </div>
+            <div class="mobile form-group">
+                <label asp-for="PhoneNumber"></label>
+                <input asp-for="PhoneNumber" id="mobile">
+            </div>
+            <div class="company form-group">
+                <label asp-for="CompanyName"></label>
+                <input asp-for="CompanyName" id="company">
+            </div>
+            <div class="email form-group">
+                <label asp-for="Email"></label>
+                <input asp-for="Email" id="email">
+                <span asp-validation-for="Email" class="error"></span>
+            </div>
+            <div class="password form-group">
+                <label asp-for="Password"></label>
+                <input asp-for="Password" id="password">
+                <span asp-validation-for="Password" class="error"></span>
+            </div>
+            <div class="confirm-password form-group">
+                <label asp-for="ConfirmPassword"></label>
+                <input asp-for="ConfirmPassword" id="confirm-password">
+                <span asp-validation-for="ConfirmPassword" class="error"></span>
+            </div>
+            <div class="terms form-checkbox-group">
+                <label class="custom-checkbox">
+                    I have read the terms and agreements
+                    <input type="checkbox" checked="checked">
+                    <span class="checkmark"></span>
+                </label>
+            </div>
+            <div class="summary">
+                <div class="error" asp-validation-summary="ModelOnly"></div>
+            </div>
+            <div class="mt-3">
+                <button type="submit" class="btn-theme">Register</button>
+            </div>
+        </form>
+    </div>
+</section>

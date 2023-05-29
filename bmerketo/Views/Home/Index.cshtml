@@ -1,0 +1,13 @@
+﻿@model HomeIndexViewModel
+
+@{
+    ViewData["Title"] = "Home";
+}
+
+<div class="m-5 home">
+    <partial name="/Views/Partials/_ProductCardCollection.cshtml" model="@Model.FeaturedCollection" />
+
+    <partial name="/Views/Partials/_ProductCardCollection.cshtml" model="@Model.NewCollection" />
+
+    <partial name="/Views/Partials/_ProductCardCollection.cshtml" model="@Model.PopularCollection" />
+</div>

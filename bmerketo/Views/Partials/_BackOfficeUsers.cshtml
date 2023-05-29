@@ -1,0 +1,61 @@
+﻿@model BackOfficeViewModel
+
+<section class="backoffice-users">
+    <div class="container">
+        <h2 class="title">@Model.UsersTitle</h2>
+        <a class="link" asp-action="registeruser" asp-controller="backoffice">Register new User here!</a>
+        <div class="users">
+            <ul class="users-list">
+                @foreach (var user in Model.Users)
+                {
+                    <li class="user">
+                        <div>
+                            <h4 class="user-title">Profile</h4>
+                            <p>@user.FirstName</p>
+                            <p>@user.LastName</p>
+                        </div>
+                        <div>
+                            <h4 class="user-title">Contact</h4>
+                            @if (user.PhoneNumber != null)
+                            {
+                                <p>@user.PhoneNumber</p>
+                            }
+                            else
+                            {
+                                <p>No current Phone number</p>
+                            }
+                            <p>@user.Email</p>
+                        </div>
+                        <div>
+                            <h4 class="user-title">Billing Address</h4>
+                            <p>@user.StreetName</p>
+                            <p>@user.PostalCode</p>
+                            <p>@user.City</p>
+                        </div>
+                        <div>
+                            <h4 class="user-title">User Role</h4>
+                            <form method="post" novalidate>
+                                <input type="hidden" name="userId" value="@user.UserId" />
+                                <div>Role: @user.RoleName</div>
+                                <label class="custom-checkbox">
+                                    USER
+                                    <input type="radio" name="roleName" value="user" @(user.RoleName == "user" ? "checked" : "")>
+                                    <span class="checkmark"></span>
+                                </label>
+                                <label class="custom-checkbox">
+                                    ADMIN
+                                    <input type="radio" name="roleName" value="admin" @(user.RoleName == "admin" ? "checked" : "")>
+                                    <span class="checkmark"></span>
+                                </label>
+                                <div class="mt-3">
+                                    <button type="submit" class="btn-theme">Update</button>
+                                </div>
+                            </form>
+                        </div>
+                    </li>
+                }
+            </ul>
+        </div>
+    </div>
+</section>
+

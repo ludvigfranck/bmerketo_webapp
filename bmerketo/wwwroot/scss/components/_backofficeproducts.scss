@@ -1,0 +1,77 @@
+.backoffice-products {
+    margin-top: 50px;
+    margin-bottom: 100px;
+
+    .container {
+        padding: 30px;
+    }
+
+    .title {
+        font-size: 26px;
+        color: $color-dark-0;
+        font-weight: $font-weight-bold;
+    }
+
+    .link {
+        color: $color-theme-1;
+        text-decoration: none;
+        font-size: 14px;
+
+        &:hover {
+            color: $color-dark-0;
+        }
+    }
+
+    .products {
+        border: 1px solid $color-dark-5;
+        padding: 30px 0;
+
+        .products-list {
+            list-style: none;
+            padding: 0;
+
+            .product {
+                display: flex;
+                justify-content: space-between;
+                margin-bottom: 30px;
+                height: 200px;
+
+                .img {
+                    width: 200px;
+                    height: 100%;
+                    align-self: center;
+
+                    img {
+                        object-fit: cover;
+                        display: block;
+                        width: 100%;
+                        height: 100%;
+                    }
+                }
+
+                .product-info {
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: space-evenly;
+
+                    .product-name {
+                        font-size: 16px;
+                        color: $color-dark-0;
+                    }
+                }
+
+                div {
+                    .product-title {
+                        font-size: 22px;
+                        color: $color-dark-0;
+                    }
+
+                    ul {
+                        list-style: none;
+                        padding: 0;
+                    }
+                }
+            }
+        }
+    }
+}

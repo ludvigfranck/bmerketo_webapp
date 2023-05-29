@@ -1,0 +1,64 @@
+﻿@model AddProductFormViewModel
+
+<section class="add-product">
+    <div class="container">
+        <div class="title">Add new Product</div>
+
+        <form method="post" novalidate>
+
+            <div class="name form-group">
+                <label asp-for="ProductName"></label>
+                <input asp-for="ProductName" id="name" type="text">
+                <span asp-validation-for="ProductName" class="error"></span>
+            </div>
+
+            <div class="description form-group">
+                <label asp-for="ProductDescription"></label>
+                <input asp-for="ProductDescription" id="name" type="text">
+            </div>
+
+            <div class="price form-group">
+                <label asp-for="ProductPrice"></label>
+                <input asp-for="ProductPrice" id="name" type="text">
+                <span asp-validation-for="ProductPrice" class="error"></span>
+            </div>
+
+            <div class="tag">
+                <div class="mb-3">Tags</div>
+                <div class="form-checkbox-group">
+                    @foreach (SelectListItem item in ViewBag.Tags)
+                    {
+                        <label class="custom-checkbox" for="@item.Text-@item.Value">
+                            @item.Text
+                            <input type="checkbox" name="tags" id="@item.Text-@item.Value" value="@item.Value" checked="@item.Selected">
+                            <span class="checkmark"></span>
+                        </label>
+                    }
+                </div>
+            </div>
+
+            <div class="category">
+                <div class="mb-3">Categories</div>
+                <div class="form-checkbox-group">
+                    @foreach (SelectListItem item in ViewBag.Categories)
+                    {
+                        <label class="custom-checkbox" for="@item.Text-@item.Value">
+                            @item.Text
+                            <input type="checkbox" name="categoryId" id="@item.Text-@item.Value" value="@item.Value" checked="@item.Selected">
+                            <span class="checkmark"></span>
+                        </label>
+                    }
+                </div>
+            </div>
+
+            <div class="summary">
+                <div class="error" asp-validation-summary="ModelOnly"></div>
+            </div>
+
+            <div class="mt-3 register-btn">
+                <button type="submit" class="btn-theme">SUBMIT</button>
+            </div>
+
+        </form>
+    </div>
+</section>

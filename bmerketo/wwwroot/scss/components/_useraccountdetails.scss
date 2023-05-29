@@ -1,0 +1,120 @@
+.account-details {
+
+    .container {
+        padding: 60px;
+    }
+
+    .user {
+        padding: 30px 0;
+
+        .user-picture {
+            margin-right: 15px;
+
+            img {
+                object-fit: cover;
+                border-radius: 50%;
+            }
+        }
+
+        .user-title {
+
+            h4 {
+                font-size: 26px;
+                color: $color-dark-2;
+                font-weight: $font-weight-bold;
+            }
+        }
+    }
+
+    .user-info {
+        display: grid;
+        gap: 30px;
+        grid-template-rows: 1fr 1fr;
+        grid-template-columns: 1fr 2fr;
+        grid-template-areas: "personal update" "billing update";
+
+        h3 {
+            font-size: 26px;
+            color: $color-dark-2;
+            font-weight: $font-weight-bold;
+            margin-bottom: 30px;
+        }
+
+        h4 {
+            font-size: 18px;
+            color: $color-dark-2;
+            font-weight: $font-weight-bold;
+        }
+
+        .personal-information {
+            grid-area: personal;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-evenly;
+        }
+
+        .billing-address {
+            grid-area: billing;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-evenly;
+        }
+
+        .update-info {
+            grid-area: update;
+
+            form {
+                border: 1px solid $color-dark-5;
+                padding: 30px;
+                display: grid;
+                grid-template-columns: 1fr 1fr;
+                gap: 30px;
+                grid-template-areas: "firstname lastname" "mobile email" "street postal" "city company" "password confirm" "btn btn";
+
+                .first-name {
+                    grid-area: firstname;
+                }
+
+                .last-name {
+                    grid-area: lastname;
+                }
+
+                .mobile {
+                    grid-area: mobile;
+                }
+
+                .email {
+                    grid-area: email;
+                }
+
+                .street-name {
+                    grid-area: street;
+                }
+
+                .postal-code {
+                    grid-area: postal;
+                }
+
+                .city {
+                    grid-area: city;
+                }
+
+                .company {
+                    grid-area: company;
+                }
+
+                .password {
+                    grid-area: password;
+                }
+
+                .confirm-password {
+                    grid-area: confirm;
+                }
+
+                .update-btn {
+                    grid-area: btn;
+                }
+            }
+        }
+    }
+}

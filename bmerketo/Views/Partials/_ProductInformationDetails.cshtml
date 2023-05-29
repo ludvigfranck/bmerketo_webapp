@@ -1,0 +1,73 @@
+﻿@model GridCollectionItemViewModel
+
+<section class="product-information">
+    <div class="container">
+        <div class="images">
+            <div class="main-image">
+                @if (Model.ImageUrl != null)
+                {
+                    <img src="@Model.ImageUrl" alt="@Model.ProductName" />
+                }
+                else
+                {
+                    <img src="/images/placeholders/501x430.svg" alt="@Model.ProductName" />
+                }
+            </div>
+            <div class="sub-images">
+                <img src="/images/placeholders/120x113.svg" />
+                <img src="/images/placeholders/120x113.svg" />
+                <img src="/images/placeholders/120x113.svg" />
+                <img src="/images/placeholders/120x113.svg" />
+            </div>
+        </div>
+        <div class="information">
+            <div class="ingress">
+                <h2>@Model.ProductName</h2>
+                @if (Model.ProductDescription != null)
+                {
+                    <p>@Model.ProductDescription</p>
+                }
+                else
+                {
+                    <p>
+                    Lirmod tempor invidunt ut labore et dolore magna
+                    aliquyam erat, sed diam voluptua. At vero eos et
+                    accusam et justo duo dolores et ea rebum. Stet
+                    clita kasd gubergren, no sea takimata sanctus est
+                    Lorem ipsum dolor sit amet
+                    </p>
+                }
+            </div>
+            <div class="rating">
+                <ul class="stars">
+                    <li class="star"><i class="fa-solid fa-star"></i></li>
+                    <li class="star"><i class="fa-solid fa-star"></i></li>
+                    <li class="star"><i class="fa-solid fa-star"></i></li>
+                    <li class="star"><i class="fa-solid fa-star"></i></li>
+                    <li class="star"><i class="fa-solid fa-star"></i></li>
+                </ul>
+                <p>16 Reviews</p>
+            </div>
+            <div class="price">$@Model.ProductPrice</div>
+            <div class="add-cart">
+                <div class="count">
+                    <div>-</div>
+                    <div>0</div>
+                    <div>+</div>
+                </div>
+                <div class="add-btn">
+                    <button class="btn-theme">Add to Cart</button>
+                </div>
+            </div>
+            <div class="colors">
+                <div class="color red"></div>
+                <div class="color yellow"></div>
+                <div class="color green"></div>
+            </div>
+            <div class="wishlist">
+                <a class="link">Add to wishlist</a>
+            </div>
+            <div class="category">Category: @Model.Category.CategoryName</div>
+        </div>
+    </div>
+</section>

@@ -1,0 +1,62 @@
+﻿@model UserAccountDetailsViewModel
+
+<form method="post" novalidate>
+
+    <div class="error"></div>
+
+    <div class="first-name form-group">
+        <label asp-for="Form.FirstName"></label>
+        <input asp-for="Form.FirstName" id="first-name" type="text" required>
+    </div>
+
+    <div class="last-name form-group">
+        <label asp-for="Form.LastName"></label>
+        <input asp-for="Form.LastName" id="last-name" type="text" required>
+    </div>
+
+    <div class="street-name form-group">
+        <label asp-for="Form.StreetName"></label>
+        <input asp-for="Form.StreetName" id="street-name" type="text" required>
+    </div>
+
+    <div class="postal-code form-group">
+        <label asp-for="Form.PostalCode"></label>
+        <input asp-for="Form.PostalCode" id="postal-code" type="text" required>
+
+    </div>
+
+    <div class="city form-group">
+        <label asp-for="Form.City"></label>
+        <input asp-for="Form.City" id="city" type="text" required>
+    </div>
+
+    <div class="mobile form-group">
+        <label asp-for="Form.PhoneNumber"></label>
+        <input asp-for="Form.PhoneNumber" id="mobile" type="text" required>
+    </div>
+
+    <div class="company form-group">
+        <label asp-for="Form.CompanyName"></label>
+        <input asp-for="Form.CompanyName" id="company" type="text" required>
+    </div>
+
+    <div class="email form-group">
+        <label asp-for="Form.Email"></label>
+        <input asp-for="Form.Email" id="email" type="email" required>
+    </div>
+
+    <div class="password form-group">
+        <label asp-for="Form.Password"></label>
+        <input asp-for="Form.Password" id="password" type="password">
+    </div>
+
+    <div class="confirm-password form-group">
+        <label asp-for="Form.ConfirmPassword"></label>
+        <input asp-for="Form.ConfirmPassword" id="confirm-password" type="password">
+    </div>
+
+    <div class="update-btn mt-3">
+        <button type="submit" class="btn-theme">Update</button>
+    </div>
+
+</form>

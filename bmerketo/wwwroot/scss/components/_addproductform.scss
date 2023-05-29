@@ -1,0 +1,54 @@
+.add-product {
+    margin-top: 100px;
+
+    .container {
+        padding: 30px;
+        border: 1px solid $color-dark-5;
+    }
+
+    .title {
+        margin-bottom: 40px;
+    }
+
+    form {
+        display: grid;
+        gap: 30px;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-areas: "name description description" "price tag tag" "category category btn";
+
+        .name {
+            grid-area: name;
+        }
+
+        .description {
+            grid-area: description;
+        }
+
+        .price {
+            grid-area: price;
+        }
+
+        .tag {
+            grid-area: tag;
+            text-align: center;
+
+            .form-checkbox-group {
+                justify-content: space-evenly;
+            }
+        }
+
+        .category {
+            grid-area: category;
+            text-align: center;
+
+            .form-checkbox-group {
+                justify-content: space-evenly;
+            }
+        }
+
+        .register-btn {
+            grid-area: btn;
+            text-align: center;
+        }
+    }
+}

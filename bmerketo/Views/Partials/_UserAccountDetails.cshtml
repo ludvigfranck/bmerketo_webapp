@@ -1,0 +1,66 @@
+﻿@model UserAccountDetailsViewModel
+
+<section class="account-details">
+    <div class="container">
+
+        <div class="user">
+            <div class="d-flex align-items-center">
+                <div class="user-picture">
+                    <img src="./images/placeholders/120x113.svg" alt="@Model.UserProfile.FirstName">
+                </div>
+                <div class="user-title">
+                    <h4>@Model.UserProfile.FirstName @Model.UserProfile.LastName</h4>
+                    <span>@Model.IdentityUser.UserName</span>
+                </div>
+            </div>
+        </div>
+
+        <div class="user-info">
+            <div class="personal-information">
+                <h3 class="title">Personal Information</h3>
+                <div class="first-name">
+                    <h4>First Name</h4>
+                    <p>@Model.UserProfile.FirstName</p>
+                </div>
+                <div class="last-name">
+                    <h4>Last Name</h4>
+                    <p>@Model.UserProfile.LastName</p>
+                </div>
+                <div class="email">
+                    <h4>E-mail Address</h4>
+                    <p>@Model.IdentityUser.UserName</p>
+                </div>
+                <div class="mobile">
+                    <h4>Phone Number</h4>
+                    <p>@Model.IdentityUser.PhoneNumber</p>
+                </div>
+            </div>
+
+            <div class="billing-address">
+                <h3 class="title">Billing Address</h3>
+                <div class="street-name">
+                    <h4>Street Name</h4>
+                    <p>@Model.UserProfile.StreetName</p>
+                </div>
+                <div class="postal-code">
+                    <h4>Postal Code</h4>
+                    <p>@Model.UserProfile.PostalCode</p>
+                </div>
+                <div class="city">
+                    <h4>City</h4>
+                    <p>@Model.UserProfile.City</p>
+                </div>
+                <div class="company">
+                    <h4>Company</h4>
+                    <p>@Model.UserProfile.CompanyName</p>
+                </div>
+            </div>
+
+            <div class="update-info">
+                <h3 class="title">Update Information</h3>
+                <partial name="/Views/Partials/Forms/_UpdateAccountForm.cshtml" />
+            </div>
+
+        </div>
+    </div>
+</section>

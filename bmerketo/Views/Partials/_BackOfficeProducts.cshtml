@@ -1,0 +1,56 @@
+﻿@model BackOfficeViewModel
+
+<section class="backoffice-products">
+    <div class="container">
+        <h2 class="title">@Model.ProductsTitle</h2>
+        <a class="link" asp-action="registerproduct" asp-controller="backoffice">Register new Product here</a>
+        <div class="products">
+            <ul class="products-list">
+                @foreach (var product in Model.Products)
+                {
+                    <li class="product">
+                        <div class="product-info">
+                            <h4 class="product-title">Product</h4>
+                            <p class="product-name">@product.ProductName</p>
+                            <p>@product.ArticleNumber</p>
+                            @if (product.ProductDescription == null)
+                            {
+                                <p>None</p>
+                            }
+                            else
+                            {
+                                <p>@product.ProductDescription</p>
+                            }
+                            <p>@product.ProductPrice</p>
+                        </div>
+                        <div class="product-category">
+                            <h4 class="product-title">Category</h4>
+                            <p>@product.Category.CategoryName</p>
+                        </div>
+                        <div class="product-tags">
+                            <h4 class="product-title">Tags</h4>
+                            <ul>
+                                @foreach (var tag in product.Tags)
+                                {
+                                    <li class="tag">
+                                        <p>@tag.TagName</p>
+                                    </li>
+                                }
+                            </ul>
+                        </div>
+                        <div class="img">
+                            @if (product.ImageUrl == null)
+                            {
+                                <img src="./images/placeholders/120x113.svg" >
+                            }
+                            else
+                            {
+                                <img src="@product.ImageUrl">
+                            }
+                        </div>
+                    </li>
+                }
+            </ul>
+        </div>
+    </div>
+</section>

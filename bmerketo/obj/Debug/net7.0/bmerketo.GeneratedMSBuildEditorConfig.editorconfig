@@ -1,0 +1,129 @@
+is_global = true
+build_property.TargetFramework = net7.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = bmerketo
+build_property.RootNamespace = bmerketo
+build_property.ProjectDir = D:\VisualStudioProjects\Submission_Tasks\AspNet_SubmissionTask_bmerketo\bmerketo\
+build_property.RazorLangVersion = 7.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = D:\VisualStudioProjects\Submission_Tasks\AspNet_SubmissionTask_bmerketo\bmerketo
+build_property._RazorSourceGeneratorDebug = 
+
+[D:/VisualStudioProjects/Submission_Tasks/AspNet_SubmissionTask_bmerketo/bmerketo/Views/Account/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/VisualStudioProjects/Submission_Tasks/AspNet_SubmissionTask_bmerketo/bmerketo/Views/BackOffice/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQmFja09mZmljZVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/VisualStudioProjects/Submission_Tasks/AspNet_SubmissionTask_bmerketo/bmerketo/Views/BackOffice/RegisterProduct.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQmFja09mZmljZVxSZWdpc3RlclByb2R1Y3QuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/VisualStudioProjects/Submission_Tasks/AspNet_SubmissionTask_bmerketo/bmerketo/Views/BackOffice/RegisterUser.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQmFja09mZmljZVxSZWdpc3RlclVzZXIuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/VisualStudioProjects/Submission_Tasks/AspNet_SubmissionTask_bmerketo/bmerketo/Views/Cart/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2FydFxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/VisualStudioProjects/Submission_Tasks/AspNet_SubmissionTask_bmerketo/bmerketo/Views/Contact/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29udGFjdFxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/VisualStudioProjects/Submission_Tasks/AspNet_SubmissionTask_bmerketo/bmerketo/Views/Home/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/VisualStudioProjects/Submission_Tasks/AspNet_SubmissionTask_bmerketo/bmerketo/Views/Partials/Forms/_AddProductForm.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGFydGlhbHNcRm9ybXNcX0FkZFByb2R1Y3RGb3JtLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/VisualStudioProjects/Submission_Tasks/AspNet_SubmissionTask_bmerketo/bmerketo/Views/Partials/Forms/_ContactUsForm.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGFydGlhbHNcRm9ybXNcX0NvbnRhY3RVc0Zvcm0uY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/VisualStudioProjects/Submission_Tasks/AspNet_SubmissionTask_bmerketo/bmerketo/Views/Partials/Forms/_SignInForm.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGFydGlhbHNcRm9ybXNcX1NpZ25JbkZvcm0uY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/VisualStudioProjects/Submission_Tasks/AspNet_SubmissionTask_bmerketo/bmerketo/Views/Partials/Forms/_SignUpForm.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGFydGlhbHNcRm9ybXNcX1NpZ25VcEZvcm0uY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/VisualStudioProjects/Submission_Tasks/AspNet_SubmissionTask_bmerketo/bmerketo/Views/Partials/Forms/_UpdateAccountForm.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGFydGlhbHNcRm9ybXNcX1VwZGF0ZUFjY291bnRGb3JtLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/VisualStudioProjects/Submission_Tasks/AspNet_SubmissionTask_bmerketo/bmerketo/Views/Partials/_BackOfficeProducts.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGFydGlhbHNcX0JhY2tPZmZpY2VQcm9kdWN0cy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/VisualStudioProjects/Submission_Tasks/AspNet_SubmissionTask_bmerketo/bmerketo/Views/Partials/_BackOfficeUsers.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGFydGlhbHNcX0JhY2tPZmZpY2VVc2Vycy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/VisualStudioProjects/Submission_Tasks/AspNet_SubmissionTask_bmerketo/bmerketo/Views/Partials/_Footer.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGFydGlhbHNcX0Zvb3Rlci5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/VisualStudioProjects/Submission_Tasks/AspNet_SubmissionTask_bmerketo/bmerketo/Views/Partials/_Header.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGFydGlhbHNcX0hlYWRlci5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/VisualStudioProjects/Submission_Tasks/AspNet_SubmissionTask_bmerketo/bmerketo/Views/Partials/_ProductCard.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGFydGlhbHNcX1Byb2R1Y3RDYXJkLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/VisualStudioProjects/Submission_Tasks/AspNet_SubmissionTask_bmerketo/bmerketo/Views/Partials/_ProductCardCollection.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGFydGlhbHNcX1Byb2R1Y3RDYXJkQ29sbGVjdGlvbi5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/VisualStudioProjects/Submission_Tasks/AspNet_SubmissionTask_bmerketo/bmerketo/Views/Partials/_ProductInformationDetails.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGFydGlhbHNcX1Byb2R1Y3RJbmZvcm1hdGlvbkRldGFpbHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/VisualStudioProjects/Submission_Tasks/AspNet_SubmissionTask_bmerketo/bmerketo/Views/Partials/_UserAccountDetails.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGFydGlhbHNcX1VzZXJBY2NvdW50RGV0YWlscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/VisualStudioProjects/Submission_Tasks/AspNet_SubmissionTask_bmerketo/bmerketo/Views/Products/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVjdHNcRGV0YWlscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/VisualStudioProjects/Submission_Tasks/AspNet_SubmissionTask_bmerketo/bmerketo/Views/Products/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVjdHNcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/VisualStudioProjects/Submission_Tasks/AspNet_SubmissionTask_bmerketo/bmerketo/Views/Search/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2VhcmNoXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/VisualStudioProjects/Submission_Tasks/AspNet_SubmissionTask_bmerketo/bmerketo/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/VisualStudioProjects/Submission_Tasks/AspNet_SubmissionTask_bmerketo/bmerketo/Views/SignIn/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2lnbkluXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/VisualStudioProjects/Submission_Tasks/AspNet_SubmissionTask_bmerketo/bmerketo/Views/SignUp/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2lnblVwXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/VisualStudioProjects/Submission_Tasks/AspNet_SubmissionTask_bmerketo/bmerketo/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/VisualStudioProjects/Submission_Tasks/AspNet_SubmissionTask_bmerketo/bmerketo/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 

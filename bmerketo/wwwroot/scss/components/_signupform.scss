@@ -1,0 +1,66 @@
+.register-form {
+    margin-top: 100px;
+
+    .container {
+        padding: 30px;
+    }
+
+    .title {
+        margin-bottom: 40px;
+    }
+
+    form {
+        display: grid;
+        gap: 30px;
+        grid-template-columns: 1fr 1fr;
+        grid-template-areas: "firstname lastname" "streetname streetname" "postalcode city" "mobile company" "email email" "password password" "confirmpassword confirmpassword" "terms terms" "summary summary";
+
+        .first-name {
+            grid-area: firstname;
+        }
+
+        .last-name {
+            grid-area: lastname;
+        }
+
+        .street-name {
+            grid-area: streetname;
+        }
+
+        .postal-code {
+            grid-area: postalcode;
+        }
+
+        .city {
+            grid-area: city;
+        }
+
+        .mobile {
+            grid-area: mobile;
+        }
+
+        .company {
+            grid-area: company;
+        }
+
+        .email {
+            grid-area: email;
+        }
+
+        .password {
+            grid-area: password;
+        }
+
+        .confirm-password {
+            grid-area: confirmpassword;
+        }
+
+        .terms {
+            grid-area: terms;
+        }
+
+        .summary {
+            grid-area: summary;
+        }
+    }
+}
